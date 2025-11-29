@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 load_dotenv()
+import os
 
 from fastapi import FastAPI
 from app.api.quiz_routes import router as quiz_router
